@@ -1,22 +1,23 @@
- * {
+/*  * {
     box-sizing: border-box;
-  }
+  } */
   
   html {
     background-color: hwb(244 42% 41%);
-    font-size: 16px;
+    font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif
   }
   
   body {
     background-color: hwb(244 42% 41%);
-    box-shadow: 0 0 12px -2px hwb(236 18% 49%);
-    /* height: 100vh; */
+/*     box-shadow: 0 0 12px -2px hwb(236 18% 49%); */
+/*     height: 100vh; */
     padding: 0;
     max-width: 960px;
     margin: 0 auto;
   }
-  a {
+  
+  a{
     color: hsl(262, 81%, 94%);
     text-decoration: none;
     font-size: x-large;
@@ -24,7 +25,6 @@
   }
   
   nav {
-    box-shadow: 0 0 12px -2px hsl(236, 47%, 34%);
     position: fixed;
     left: 0;
     right: 0;
@@ -34,6 +34,14 @@
     display: flex;
     height: 80px;
     padding: 10px;
-    display: flex;
     justify-content: space-between;
   }
+  main > img{
+    width: 500px;
+    float: right;
+/*     margin: 10px 0 10px 10px; */
+  }
+
+/* h2{
+  
+} */
