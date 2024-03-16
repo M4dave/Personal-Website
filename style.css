@@ -53,3 +53,44 @@
     background-color: red;
 } */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: hsl(300, 22%, 39%);
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+/*   z-index: 100; */
+  font-size: 1.5em;
+}
+nav a{
+  text-decoration: none;
+  color: hsl(300, 23%, 25%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-left: 5px;
+  transition: .3s;
+}
+
+#links a:hover, 
+#links a.active {
+  color: hsl(300, 94%, 14%);
+}
+
+#logo{
+  font-size: 1em;
+  color: hsl(300, 23%, 25%);
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: default;
+}
