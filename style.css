@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
-  list-style: none;
+/*   list-style: none; */
   background-color: #34568B;
   color: black;
 }
@@ -19,8 +19,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
-  backdrop-filter: blur(10px);
+/*   z-index: 100; */
+/*   backdrop-filter: blur(10px); */
 }
 
 .nav a{
@@ -34,6 +34,7 @@
 .links a:hover, 
 .links a.active{
     border-bottom: 3px solid;
+    color: white;
 }
 
 .header{
@@ -145,8 +146,6 @@ h1{
 }
 
 #alohaIMG, #itemsIMG, #foodIMG{
-/*   width: 200px;
-  height: 200px; */
   margin-right: 10px;
   float: left;
 }
