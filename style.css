@@ -61,10 +61,6 @@
   transform: scale(1.1);
 }
 
-/* span{
-  color: black;
-}
- */
 main{
   min-height: 100vh;
   padding: 65px 85px 65px;
@@ -89,8 +85,6 @@ main img{
   font-size: 2em;
   margin-block-start: 1.1em;
   margin-block-end: 1.1em;
-/*   animation: rotate;
-  animation-duration: 2s; */
 }
 
 .denzelW{
@@ -129,11 +123,11 @@ footer img{
 
 /* About me CSS */
 
-section, h2{
+/* section, h2{
   display: block;
-}
+} */
 
-#aboutHeader{
+h1{
   font-size: 1.5em;
   padding: 30px;
   margin-left: -33px;
@@ -157,6 +151,6 @@ section, h2{
   float: left;
 }
 
-main h2{
+h2{
   font-size: 2em;
 }
