@@ -7,6 +7,7 @@
 
 body{
   background-color: hsl(240, 32%, 40%);
+  display: flow-root;
 }
 
 
@@ -87,15 +88,12 @@ main img{
 }
 
 footer{
-
   width: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   padding: auto;
-
-
 }
 
 .social-media{
@@ -117,16 +115,44 @@ footer img{
 
 section{
   display: block;
-  border-top: 1px solid;
-
 }
-
+#aboutHeader{
+  font-size: 2em;
+  text-align: center;
+}
 #controller{
   float: right;
-  margin: 10px;
+  margin: 0 10px 10px 0;
+  border: 3px solid;
+  border-radius: 5px;
 }
 
 #father{
   float: right;
-  margin: 10px;
+  margin: 0 10px 10px 0;
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+#basketball{
+  float: left;
+  margin: 0 10px 10px 0;
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+#controllerIMG{
+  width: 200px;
+  height: 200px;
+}
+
+#basketballIMG{
+  width: 200px;
+  height: 200px;
+}
+
+#fatherIMG{
+  width: 200px;
+  height: 200px;
+  float: left;
 }
