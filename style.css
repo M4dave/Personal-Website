@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: hsl(240, 32%, 40%);
+  background-color: #34568B;
   display: flow-root;
 }
 
@@ -58,9 +58,10 @@ main img{
   float: right;
 }
 
-p{
+.homeContent{
   display: block;
   font-size: 1.3em;
+  margin-left: auto;
 }
 
 /* 
@@ -75,15 +76,15 @@ main img{
 } */
 
 
-.FDG{
+.DG{
   font-size: 2em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 1.1em;
+  margin-block-end: 1.1em;
 /*   animation: rotate;
   animation-duration: 2s; */
 }
 
-#denzelW{
+.denzelW{
   text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px hsl(182, 100%, 61%);
   text-align: center;
   font-size: 3em;
@@ -131,22 +132,17 @@ section{
 #controller{
   float: right;
   margin: 0 10px 10px 0;
-  border: 3px solid;
-  border-radius: 5px;
 }
 
 #father{
   float: right;
   margin: 0 10px 10px 0;
-  border: 3px solid;
-  border-radius: 5px;
 }
 
 #basketball{
   float: left;
   margin: 0 10px 10px 0;
-  border: 3px solid;
-  border-radius: 5px;
+
 }
 
 #controllerIMG{
@@ -163,14 +159,19 @@ section{
   width: 200px;
   height: 200px;
   float: left;
+  margin: auto;
+}
+main h2{
+  font-size: 1.5em;
 }
 
 
 /* Keyframse */
-@keyframes rotate {
+/* @keyframes rotate {
   100%{transform: rotateX(360deg)}
 }
 
 @keyframes slideUp {
   from{transform: translateY(300%)}
 }
+ */
