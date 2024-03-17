@@ -129,7 +129,7 @@ footer img{
 
 /* About me CSS */
 
-section{
+section, h2{
   display: block;
 }
 
@@ -139,48 +139,24 @@ section{
   margin-left: -33px;
 }
 
-#controller{
+
+#father, #aloha, #basketball, #controller, #items, #food{
   float: right;
   margin: 0 10px 10px 0;
 }
 
-#father{
-  float: right;
-  margin: 0 10px 10px 0;
+#controllerIMG, #fatherIMG, #basketballIMG{
+  width: 200px;
+  height: 200px;
 }
 
-#basketball{
+#alohaIMG, #itemsIMG, #foodIMG{
+/*   width: 200px;
+  height: 200px; */
+  margin-right: 10px;
   float: left;
-  margin: 0 10px 10px 0;
-
-}
-
-#controllerIMG{
-  width: 200px;
-  height: 200px;
-}
-
-#basketballIMG{
-  width: 200px;
-  height: 200px;
-}
-
-#fatherIMG{
-  width: 200px;
-  height: 200px;
-  margin: auto;
 }
 
 main h2{
   font-size: 2em;
 }
-
-/* Keyframse */
-/* @keyframes rotate {
-  100%{transform: rotateX(360deg)}
-}
-
-@keyframes slideUp {
-  from{transform: translateY(300%)}
-}
- */
