@@ -13,7 +13,7 @@ body{
 
 nav a{
   text-decoration: none;
-  color: hsl(240, 24%, 53%);
+  color: #000000;
   
 }
 
@@ -22,7 +22,7 @@ nav a{
 }
  */
 .active{
-  border-bottom: 3px solid hsl(240, 24%, 53%);
+  border-bottom: 3px solid #000000;
 }
 
 nav{
@@ -41,14 +41,14 @@ nav{
 
 .logo{
   font-size: 1.5em;
-  color: hsl(240, 24%, 53%);
+  color: #000000;
   padding: 20px 10px;
 }
 
 main{
   min-height: 100vh;
   padding: 65px 85px 65px;
-  color: hsl(240, 24%, 53%); 
+  color: #000000;
   margin: auto;
 }
 
@@ -110,7 +110,7 @@ footer{
 
 footer a{
   text-decoration: none;
-  color: hsl(300, 23%, 25%);
+  color: #000000;
   margin: 0 5px;
 }
 
