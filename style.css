@@ -61,7 +61,7 @@ main img{
 .homeContent{
   display: block;
   font-size: 1.3em;
-  margin-left: auto;
+  
 }
 
 /* 
@@ -125,8 +125,9 @@ section{
 }
 
 #aboutHeader{
-  font-size: 2em;
-  text-align: center;
+  font-size: 1.5em;
+  padding: 30px;
+  margin-left: -33px;
 }
 
 #controller{
@@ -160,10 +161,10 @@ section{
   height: 200px;
   margin: auto;
 }
-main h2{
-  font-size: 1.5em;
-}
 
+main h2{
+  font-size: 2em;
+}
 
 /* Keyframse */
 /* @keyframes rotate {
