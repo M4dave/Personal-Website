@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 body{
@@ -14,12 +14,13 @@ body{
 nav a{
   text-decoration: none;
   color: hsl(240, 24%, 53%);
+  
 }
 
 /* #links a:hover{
   color: hsl(248, 78%, 45%);
-} */
-
+}
+ */
 .active{
   border-bottom: 3px solid hsl(240, 24%, 53%);
 }
@@ -34,23 +35,24 @@ nav{
   justify-content: space-between;
   align-items: center;
   font-size: 1.5em;
+/*   animation: rotate;
+  animation-duration: 2s; */
 }
 
 .logo{
   font-size: 1.5em;
   color: hsl(240, 24%, 53%);
+  padding: 20px 10px;
 }
 
 main{
-
   min-height: 100vh;
   padding: 65px 85px 65px;
-  color: hsl(240, 24%, 53%);
-  
+  color: hsl(240, 24%, 53%); 
+  margin: auto;
 }
 
 main img{
-
   width: 300px;
   height: 300px;
   float: right;
@@ -58,7 +60,7 @@ main img{
 
 p{
   display: block;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 /* 
@@ -77,6 +79,8 @@ main img{
   font-size: 2em;
   margin-block-start: 1em;
   margin-block-end: 1em;
+/*   animation: rotate;
+  animation-duration: 2s; */
 }
 
 #denzelW{
@@ -85,6 +89,8 @@ main img{
   font-size: 3em;
   font-weight: 100;
   margin-top: 5.5em;
+/*   animation: slideUp;
+  animation-duration: 2s; */
 }
 
 footer{
@@ -116,10 +122,12 @@ footer img{
 section{
   display: block;
 }
+
 #aboutHeader{
   font-size: 2em;
   text-align: center;
 }
+
 #controller{
   float: right;
   margin: 0 10px 10px 0;
@@ -155,4 +163,14 @@ section{
   width: 200px;
   height: 200px;
   float: left;
+}
+
+
+/* Keyframse */
+@keyframes rotate {
+  100%{transform: rotateX(360deg)}
+}
+
+@keyframes slideUp {
+  from{transform: translateY(300%)}
 }
