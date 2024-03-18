@@ -55,6 +55,7 @@
   font-weight: 600;
   transition: 0.5s ease;
 }
+
 .logo:hover{
   color: black;
   text-shadow: 0 0 30px black,
@@ -66,8 +67,7 @@ main{
   width: 100%;
   min-height: 100vh;
   padding: 65px 85px 65px;
-  color: #000000;
-    
+  color: #000000;    
 }
 
 .waterIMG{
@@ -80,7 +80,6 @@ main{
 .homeContent{
   font-size: 1.3em;
   display: flex;
-  
 }
 
 .DG{
