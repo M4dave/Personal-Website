@@ -23,10 +23,10 @@
     background-color: red;
   }
   60% {
-    background-color: #562477;
+    background-color: #2c223a;
   }
   80% {
-    background-color: #2c223a;
+    background-color: #562477;
   }
   100% {
     background-color: #d2a1fd;
@@ -93,11 +93,14 @@ footer {
   animation: slideLeft 2s;
 }
 
-.home,
 #headeranimation/* ,
 .home-about,
 .home-portfolio */ {
-  animation: 2s colorChange;
+  animation: colorChange 4s infinite;
+}
+.home,
+#headeranimationinfo {
+  animation: colorChange 3s;
 }
 
 /* Navbar a tag CSS */
