@@ -206,7 +206,7 @@ footer {
 }
 
 .aboutport:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 
 .home-about .about-H2,
