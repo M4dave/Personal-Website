@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,48 +11,45 @@
       <a href="#" class="logo"><span>Dav</span>id</a>
 
       <nav class="navbar">
-        <a href="" class="active">Home</a>
+        <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="portfolio.html">Portfolio</a>
       </nav>
-      <a href="contactme.html" class="contact">Contact Me</a>
+      <a href="" class="contact" class="active">Contact Me</a>
     </header>
 
-    <section class="home">
-      <div class="home-content">
-        <h3><script src="time.js"></script></h3>
-
-        <h1>I'm <span id="dSpan">David</span><br />a Web developer</h1>
-
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quo
-          aliquam dolor quam fugit beatae, sequi iusto ut quos, voluptas,
-          dolorem minima sit officia eum culpa illum est omnis enim. Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Dolor at laboriosam, est
-          tempora recusandae, voluptatibus ratione nam quis repudiandae
-          temporibus fuga maiores iste nesciunt quo porro mollitia commodi,
-          explicabo consequuntur!
-        </p>
-
-        <p class="quote">
-          “You pray for rain, you gotta deal with the mud too. That's a part of
-          it.” ― Denzel Washington
-        </p>
-        <!-- <p>
-          Theme of Al de Baran
-          <br /><br /><audio
-            src="audio/Theme of Al de Baran.mp3"
-            controls
-            autoplay
-            loop
-            muted
-          ></audio>
-        </p> -->
-      </div>
-
+    <section class="home-contactme">
+      <form action="thankyou.html">
+        <h1>Sign Up!</h1>
+        <label for="Username">Full name</label>
+        <input type="Username" placeholder="Tony Stark" />
+        <label for="Email">Email</label>
+        <input type="Email" placeholder="email@gmail.com"  />
+        <label for="Phone" place>Phone</label>
+        <input type="Phone" placeholder="123-456-7890"  />
+        <label for="message">Message me</label>
+        <input type="message" placeholder="Enter your message here" />
+        <input type="submit" id="submit" />
+        <div
+          style="
+            width: 100%;
+            height: 0;
+            padding-bottom: 56%;
+            position: relative;
+          "
+        >
+          <iframe
+            src="https://giphy.com/embed/3o6ZsTxRzexgR6O7C0"
+            width="350px"
+            style="position: absolute"
+            frameborder="0"
+            class="giphy-embed"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </form>
       <img
-        class="killua"
-        src="images/killua.png"
+        src="/images/killua.png"
         alt="A picture of the anime character Killua."
       />
     </section>
